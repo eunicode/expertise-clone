@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from './layout.module.css'
+import Head from "next/head";
+import styles from "./layout.module.css";
 
 export default function Layout({ children }) {
   return (
@@ -8,6 +8,7 @@ export default function Layout({ children }) {
         <title>Layouts Example</title>
       </Head>
       <main className={styles.main}>{children}</main>
+      {/* <main>{children}</main> */}
     </>
-  )
+  );
 }

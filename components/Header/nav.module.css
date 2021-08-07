@@ -1,0 +1,19 @@
+/* #2bbda6 */
+.nav {
+  /* display: flex; */
+}
+
+.navCat {
+  padding: 10px;
+  text-transform: uppercase;
+}
+.ul {
+  display: flex;
+  /* flex-direction: row; */
+}
+/* @media (min-width: 769px) {
+  .nav__cat {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+} */

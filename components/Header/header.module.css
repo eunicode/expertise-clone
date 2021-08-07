@@ -1,0 +1,14 @@
+.header {
+  padding: 0.75em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerName {
+  font-size: 1.35em;
+  margin: 0;
+  padding: 10px;
+  color: var(--tealDark);
+  font-weight: bold;
+}

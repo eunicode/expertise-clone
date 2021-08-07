@@ -1,0 +1,13 @@
+.navCat {
+  padding: 10px;
+}
+
+.navCatLink {
+  text-decoration: none;
+  color: var(--tealDark);
+  text-transform: uppercase;
+}
+
+.navCatLink:hover {
+  text-decoration: underline;
+}
