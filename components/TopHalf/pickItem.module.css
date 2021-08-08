@@ -13,4 +13,6 @@
   padding-left: 0.5em;
   font-size: 0.9em;
   word-break: break-word;
+  /* font-weight: 300; */
+  color: var(--tealDark2);
 }

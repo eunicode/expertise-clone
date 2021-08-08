@@ -3,9 +3,9 @@ import Image from "next/image";
 import plumbing from "../../public/images/plumbing-unsplash.jpg";
 import PickList from "./pickList";
 
-export default function PickContainer() {
+export default function PickContainer(props) {
   return (
-    <section className={styles.pickContainer}>
+    <section className={`${styles.pickContainer} ${props.styleGrid}`}>
       <h2 className={styles.pickContainerHeader}>
         We scored [x number] of [professionals] in [city], [state] and picked
         the top 15
@@ -20,7 +20,7 @@ export default function PickContainer() {
       />
       <section className={styles.pickContainerPicks}>
         <h2>Here are the Picks:</h2>
-        <PickList className={styles.pickContainerPickList} />
+        <PickList />
       </section>
     </section>
   );

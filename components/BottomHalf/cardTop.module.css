@@ -1,0 +1,21 @@
+.cardTop {
+  display: flex;
+  background-color: white;
+  /* margin-bottom: 2em; */
+}
+
+.cardTopTagCont {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.cardTopTag {
+  padding: 5px 10px;
+  background-color: lightgray;
+  /* margin: 5px; */
+  margin: 0px 1em 0px 0px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+/* .cardFooter {
+} */

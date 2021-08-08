@@ -27,7 +27,7 @@ const professionals = [
       helpfulness: "grade",
       detail: "grade",
     },
-    price: "From $x / hr",
+    price: "From $[x] / hr",
   },
   {
     id: 2,
@@ -57,13 +57,13 @@ const professionals = [
       helpfulness: "grade",
       detail: "grade",
     },
-    price: "From $x / hr",
+    price: "From $[x] / hr",
   },
   {
     id: 3,
     name: "Professional Business Name",
     logo: "/images/plumbing-logo.jpg",
-    tags: ["tag1", "tag2", "tag3"],
+    tags: ["tag1"],
     description:
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
@@ -87,7 +87,7 @@ const professionals = [
       helpfulness: "grade",
       detail: "grade",
     },
-    price: "From $x / hr",
+    price: "From $[x] / hr",
   },
   {
     id: 4,
@@ -117,7 +117,7 @@ const professionals = [
       helpfulness: "grade",
       detail: "grade",
     },
-    price: "From $x / hr",
+    price: "From $[x] / hr",
   },
   {
     id: 5,
@@ -147,7 +147,7 @@ const professionals = [
       helpfulness: "grade",
       detail: "grade",
     },
-    price: "From $x / hr",
+    price: "From $[x] / hr",
   },
   {
     id: 6,
@@ -177,7 +177,7 @@ const professionals = [
       helpfulness: "grade",
       detail: "grade",
     },
-    price: "From $x / hr",
+    price: "From $[x] / hr",
   },
   {
     id: 7,
@@ -207,7 +207,7 @@ const professionals = [
       helpfulness: "grade",
       detail: "grade",
     },
-    price: "From $x / hr",
+    price: "From $[x] / hr",
   },
   {
     id: 8,
@@ -237,7 +237,7 @@ const professionals = [
       helpfulness: "grade",
       detail: "grade",
     },
-    price: "From $x / hr",
+    price: "From $[x] / hr",
   },
   {
     id: 9,
@@ -267,7 +267,7 @@ const professionals = [
       helpfulness: "grade",
       detail: "grade",
     },
-    price: "From $x / hr",
+    price: "From $[x] / hr",
   },
 ];
 

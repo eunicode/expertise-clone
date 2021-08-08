@@ -26,9 +26,9 @@ const sideBarData = [
   },
 ];
 
-export default function Sidebar() {
+export default function Sidebar(props) {
   return (
-    <aside className={styles.sidebar}>
+    <aside className={`${styles.sidebar} ${props.styleGrid}`}>
       <h2 className={styles.sidebarHeader}>Why these [professionals]?</h2>
       <p>
         Our goal is to connect people with the best local experts. We scored

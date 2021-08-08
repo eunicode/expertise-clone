@@ -11,7 +11,6 @@ export default function Navigation() {
         ))}
         <li className={`${styles.navCat} ${styles.navListed}`}>Get Listed</li>
       </ul>
-      <style jsx>{``}</style>
     </nav>
   );
 }

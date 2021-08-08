@@ -5,7 +5,7 @@ import PickItem from "./pickItem";
 export default function PickList(props) {
   return (
     <div>
-      <ul>
+      <ul className={styles.pickListGrid}>
         {professionals.map((professional, i) => (
           <PickItem
             key={i}

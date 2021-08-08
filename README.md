@@ -9,9 +9,11 @@
 ## To do
 
 - Sticky header
+- Use grid-gap to manage spacing between layout components
 
 LATER
 
+- Use classnames library
 - Use Tailwind
 - How to use element selectors with CSS Modules
 - Find out the difference between styled-jsx and styled-components

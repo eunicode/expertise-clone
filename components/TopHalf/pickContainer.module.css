@@ -42,11 +42,13 @@
   margin-top: 2em;
 }
 
+.pickContainerPicks h2 {
+  margin-bottom: 1em;
+}
 .pickContainerImg {
   /* margin-bottom: 2em; */
 }
 
-.pickContainerPickList {
-  /* margin-top: 2em; */
+/* .pickContainerPickList {
   color: orange;
-}
+} */

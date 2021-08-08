@@ -1,7 +1,6 @@
 /* Single column, mobile first layout */
 .topHalfGrid {
-  width: 90%;
-  margin: auto;
+  margin: 0px auto 2em auto;
   display: grid;
   /* align-items: center; */
   /* justify-content: center; */
@@ -32,7 +31,13 @@
   grid-area: sidebar;
 } */
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
+  .topHalfGrid {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
   .topHalfGrid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;

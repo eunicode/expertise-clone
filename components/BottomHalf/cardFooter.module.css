@@ -1,0 +1,28 @@
+.cardFooter {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+  grid-template-columns: 1fr;
+  /* justify-items: center; */
+  grid-auto-rows: 1fr; /* makes all rows the same height */
+  text-align: center;
+  align-items: center;
+  /* color: white; */
+  /* background-color: var(--teal); */
+  /* padding: 10px; */
+}
+
+.cardFooterSect {
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .cardFooter {
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 1fr; */
+    /* grid-template-rows: auto; */
+    /* grid-template-areas: "pickContainer pickContainer sidebar"; */
+  }
+}
+/*
+https://stackoverflow.com/questions/44488357/equal-height-rows-in-css-grid-layout
+*/
