@@ -1,6 +1,6 @@
-# Layout component example
+# Expertise Clone
 
-This example shows a very common use case when building websites where you need to repeat some sort of layout for all your pages. Our pages are: `home`, `about` and `contact` and they all share the same layout and sidebar.
+## Demo
 
 ## Features
 
@@ -8,7 +8,31 @@ This example shows a very common use case when building websites where you need 
 
 ## To do
 
+- Sticky header
+
+LATER
+
 - Use Tailwind
+- How to use element selectors with CSS Modules
+- Find out the difference between styled-jsx and styled-components
+
+## Things I would do differently
+
+I would use styled-components to keep CSS on the same page as JS, or
+I would use Tailwind to avoid having to think of class names and try a utility-first class approach to keep styling atomic, composable and reusable.
+
+## Lessons learned
+
+- With Next.js, when using root relative paths, we don't include `public` in the path
+- Next.js image's css overrides custom css
+- We can't give React component instances classes
+- Using CSS grid with CSS Modules is hard bc of locally scoped classes. If you have React component instances, use props to pass down styles or wrapper divs
+- Use viewport meta tag to make websites full bleed in mobile views
+- How to use Grid to make text overlay images
+
+# Layout component example
+
+This example shows a very common use case when building websites where you need to repeat some sort of layout for all your pages. Our pages are: `home`, `about` and `contact` and they all share the same layout and sidebar.
 
 ## Preview
 

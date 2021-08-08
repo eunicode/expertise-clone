@@ -3,12 +3,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 }
 
 .headerName {
   font-size: 1.35em;
   margin: 0;
   padding: 10px;
-  color: var(--tealDark);
+  color: var(--tealDark1);
   font-weight: bold;
 }

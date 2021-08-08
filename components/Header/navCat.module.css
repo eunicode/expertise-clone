@@ -4,8 +4,10 @@
 
 .navCatLink {
   text-decoration: none;
-  color: var(--tealDark);
+  color: var(--tealDark1);
   text-transform: uppercase;
+  font-size: 0.95em;
+  font-weight: 500;
 }
 
 .navCatLink:hover {

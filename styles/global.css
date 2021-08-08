@@ -4,21 +4,26 @@
 
 :root {
   --teal: #2bbda6;
-  --tealDark: #024b6d;
+  --tealDark1: #024b6d;
+  --tealDark2: #0a2a3a;
+  --gray: #82888a;
+  --grayLight: #f0f0f0;
 }
 /* Styles that came with Next starter */
 
-/* #__next {
+#__next {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-} */
+}
 
 body {
   margin: 0;
   /* font-size: 24px; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: var(--grayLight);
+  line-height: 1.6;
 }
 
 /* Minimal CSS reset 

@@ -1,0 +1,42 @@
+/* Single column, mobile first layout */
+.topHalfGrid {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  /* align-items: center; */
+  /* justify-content: center; */
+  grid-template-columns: 1fr;
+
+  /* grid-auto-rows: 1fr; */
+  grid-auto-rows: auto;
+  grid-gap: 2em;
+  grid-template-areas:
+    "pickContainer"
+    "sidebar";
+  /* padding: 2em; */
+}
+
+.pickContainerGrid {
+  grid-area: pickContainer;
+}
+/* .pickContainer {
+  grid-area: pickContainer;
+} */
+
+.sidebarGrid {
+  grid-area: sidebar;
+  height: 100%;
+}
+
+/* .sidebar {
+  grid-area: sidebar;
+} */
+
+@media (min-width: 992px) {
+  .topHalfGrid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    /* grid-template-rows: auto; */
+    grid-template-areas: "pickContainer pickContainer sidebar";
+  }
+}

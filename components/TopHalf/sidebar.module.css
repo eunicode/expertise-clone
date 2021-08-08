@@ -1,0 +1,15 @@
+.sidebar {
+  background-color: white;
+  /* color: #82888a; */
+  color: gray;
+  padding: 2em;
+  height: 100%;
+}
+
+.sidebarHeader {
+  color: var(--tealDark2);
+}
+
+.sidebarText {
+  font-size: 0.9em;
+}

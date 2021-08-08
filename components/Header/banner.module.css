@@ -1,0 +1,25 @@
+.banner {
+  color: white;
+  background: var(--teal);
+  text-align: center;
+  display: grid;
+  grid-template: "container";
+  place-items: center;
+  place-content: center;
+  margin-bottom: 2em;
+}
+
+.banner > * {
+  grid-area: container;
+}
+
+.bannerImage {
+  place-self: center;
+}
+
+.bannerText {
+  place-self: center;
+  margin-top: 4em;
+  word-break: break-word;
+  width: 50%;
+}

@@ -1,0 +1,16 @@
+.pickItem {
+  display: flex;
+  align-items: center;
+  /* padding: 10px 0; */
+}
+
+.pickItemImg {
+  border-radius: 50%;
+  /* display: inline-block; */
+}
+
+.pickItemName {
+  padding-left: 0.5em;
+  font-size: 0.9em;
+  word-break: break-word;
+}
