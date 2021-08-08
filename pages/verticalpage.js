@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 // import Navigation from "../components/navigation";
 import Header from "../components/Header/header";
-import Banner from "../components/banner";
+import Banner from "../components/Main/banner";
 export default function VerticalPage() {
   return (
     <>

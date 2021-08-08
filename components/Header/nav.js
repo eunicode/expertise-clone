@@ -9,7 +9,7 @@ export default function Navigation() {
         {categories.map((cat, i) => (
           <NavCat key={i} cat={cat} />
         ))}
-        <li className={styles.navCat}>Get Listed</li>
+        <li className={`${styles.navCat} ${styles.navListed}`}>Get Listed</li>
       </ul>
       <style jsx>{``}</style>
     </nav>

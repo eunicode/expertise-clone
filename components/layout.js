@@ -5,7 +5,9 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Layouts Example</title>
+        <title>Expertise Clone</title>
+        <meta name="description" content="Find experts in your area" />
+        <meta name="keywords" content="Experts, Law, Business, Home" />
       </Head>
       <main className={styles.main}>{children}</main>
       {/* <main>{children}</main> */}
