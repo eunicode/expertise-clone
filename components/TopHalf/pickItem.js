@@ -2,7 +2,6 @@ import styles from "./pickItem.module.css";
 import Image from "next/image";
 
 export default function PickItem(props) {
-  // <div className={styles.pickItem}>
   return (
     <div className={styles.pickItem}>
       <Image

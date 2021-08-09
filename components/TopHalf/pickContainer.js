@@ -25,6 +25,3 @@ export default function PickContainer(props) {
     </section>
   );
 }
-
-// width={350}
-// height={280}

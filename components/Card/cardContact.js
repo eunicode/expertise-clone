@@ -1,8 +1,10 @@
 import styles from "./cardContact.module.css";
 
 export default function CardContact({ professional }) {
+  // To do: extract
   const socMedGenerate = (socMedObj) => {
     const socMedArr = [];
+
     for (const [key, value] of Object.entries(socMedObj)) {
       socMedArr.push(
         <p>

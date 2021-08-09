@@ -8,11 +8,13 @@ export default function CardTop({ professional }) {
     <div className={styles.cardTop}>
       <Image src={professional.logo} width={500} height={500} />
       <div className={styles.cardTopRight}>
-        <h3>{professional.name}</h3>
+        <div className={styles.cardTopRightInfo}>
+          <h3>{professional.name}</h3>
 
-        <CardTag professional={professional} />
+          <CardTag professional={professional} />
 
-        <p>{professional.description}</p>
+          <p>{professional.description}</p>
+        </div>
         <CardContact professional={professional} />
       </div>
     </div>

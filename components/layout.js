@@ -1,5 +1,8 @@
 import Head from "next/head";
 import styles from "./layout.module.css";
+import Header from "../components/Header/header";
+import Banner from "../components/Header/banner";
+import Footer from "../components/Footer/footer";
 
 export default function Layout({ children }) {
   return (
@@ -13,8 +16,13 @@ export default function Layout({ children }) {
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </Head>
-      <main className={styles.main}>{children}</main>
-      {/* <main>{children}</main> */}
+
+      <Header />
+      <Banner />
+
+      <main>{children}</main>
+
+      <Footer />
     </>
   );
 }

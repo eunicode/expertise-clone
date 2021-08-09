@@ -1,22 +1,12 @@
 .cardTopContact {
   display: grid;
-  /* display: flex; */
-  /* flex-direction: column; */
   grid-auto-rows: 1fr;
-  /* grid-auto-rows: 1fr 1fr 1fr 1fr 1fr; */
-  /* grid-template-rows: repeat(5, 1fr); */
-  /* align-items: center; */
-  /* align-self: end; */
   margin-top: auto;
-  /* margin-top: 2em; */
-  /* height: 40%; */
-  /* padding-top: 2em; */
 }
 
 .cardTopSocial {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
 }
 
 .cardTopSocial p {
@@ -26,10 +16,7 @@
 .cardContactPhone {
   border: 1px solid var(--orange);
   background: none;
-  /* border-radius: 5px; */
   color: var(--orange);
-  /* padding: 5px; */
-
   display: block;
   width: 100%;
 }
@@ -38,43 +25,34 @@
   text-decoration: none;
   color: var(--tealDark1);
 }
-/* .cardFooter {
-} */
+
 .cardContactSite {
   background-color: var(--orange);
-
   text-transform: uppercase;
   font-size: 0.9em;
   letter-spacing: 1px;
-  /* border-radius: 5px; */
   padding: 5px;
   width: 100%;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* align-items: center; */
-  /* text-align: center; */
 }
 
 .cardContactSite a {
   text-decoration: none;
   color: white;
-  /* text-align: center; */
-  /* display: inline-block; */
   margin: auto;
 }
 
 .utilVertCenter {
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: center; */
   align-items: center;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   .cardTop {
     flex-direction: row;
   }
+}
+
+@media (min-width: 1024px) {
   .cardTopContact {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);

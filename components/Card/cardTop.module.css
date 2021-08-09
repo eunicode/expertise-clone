@@ -17,6 +17,7 @@
   /* grid-template-rows: 1fr; */
   /* grid-template-rows: auto; */
   /* grid-auto-rows: 1fr; */
+  /* padding: 1.5em; */
 }
 
 .cardTopRight h3 {
@@ -31,6 +32,10 @@
   font-size: 0.85em;
 }
 
+.cardTopRightInfo {
+  /* padding: 1em; */
+  padding-right: 2em;
+}
 .cardTopRight > * {
   /* padding: 0.5em 0px; */
   /* padding-bottom: 0.75em; */
