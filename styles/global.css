@@ -8,7 +8,8 @@
   --tealDark2: #0a2a3a;
   --orange: #f4854b;
   --gray: #82888a;
-  --grayDark: #666;
+  --grayDark1: #666;
+  --grayDark2: rgb(58, 58, 58);
   --grayLight: #f0f0f0;
   /* Just for reference. CSS variables cannot be used in media queries*/
   --sm: "640px";

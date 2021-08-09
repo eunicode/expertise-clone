@@ -44,7 +44,7 @@ const professionals = [
     phone: "(111) 111-1111",
     site: "www.company.com",
     socialMedia: {
-      Facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -75,7 +75,7 @@ const professionals = [
     phone: "(111) 111-1111",
     site: "www.company.com",
     socialMedia: {
-      Facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -106,7 +106,7 @@ const professionals = [
     phone: "(111) 111-1111",
     site: "www.company.com",
     socialMedia: {
-      Facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -137,7 +137,8 @@ const professionals = [
     phone: "(111) 111-1111",
     site: "www.company.com",
     socialMedia: {
-      Facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/",
+      Instagram: "https://www.instagram.com/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -168,7 +169,7 @@ const professionals = [
     phone: "(111) 111-1111",
     site: "www.company.com",
     socialMedia: {
-      Facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -199,7 +200,7 @@ const professionals = [
     phone: "(111) 111-1111",
     site: "www.company.com",
     socialMedia: {
-      Facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -230,7 +231,7 @@ const professionals = [
     phone: "(111) 111-1111",
     site: "www.company.com",
     socialMedia: {
-      Facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -261,7 +262,7 @@ const professionals = [
     phone: "(111) 111-1111",
     site: "www.company.com",
     socialMedia: {
-      Facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/",
     },
     reputation: "A+",
     reputationMoreInfo: {

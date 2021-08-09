@@ -1,0 +1,19 @@
+.footer {
+  background-color: var(--grayDark2);
+  /* background-color: var(--grayDark1); */
+  color: white;
+}
+
+.footerInner {
+  margin: auto;
+  padding: 2em 0px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@media (min-width: 768px) {
+  .footerInner {
+    width: 80%;
+  }
+}
