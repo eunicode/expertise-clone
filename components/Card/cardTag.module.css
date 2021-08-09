@@ -1,0 +1,16 @@
+.cardTopTagCont {
+  /* display: inline-flex; */
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
+}
+
+.cardTopTag {
+  padding: 5px 10px;
+  background-color: lightgray;
+  /* margin: 5px; */
+  margin-right: 1em;
+  border-radius: 5px;
+  font-size: 0.8em;
+}

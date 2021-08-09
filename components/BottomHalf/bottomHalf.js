@@ -1,5 +1,5 @@
 import styles from "./bottomHalf.module.css";
-import CardList from "./cardList";
+import CardList from "../Card/cardList";
 
 export default function BottomHalf() {
   return (

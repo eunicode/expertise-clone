@@ -6,7 +6,7 @@ import CardFooter from "./cardFooter";
 export default function CardList() {
   return (
     <section className={styles.cardList}>
-      {professionals.map((professional, i) => {
+      {professionals.slice(0, 5).map((professional, i) => {
         return (
           <div className={styles.card}>
             <CardTop professional={professional} key={i} />
