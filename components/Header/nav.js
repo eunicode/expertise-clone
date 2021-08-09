@@ -5,7 +5,7 @@ import NavCat from "./navCat";
 export default function Navigation() {
   return (
     <nav className={styles.nav}>
-      <ul className={styles.ul}>
+      <ul className={styles.navCatContainer}>
         {categories.map((cat, i) => (
           <NavCat key={i} cat={cat} />
         ))}

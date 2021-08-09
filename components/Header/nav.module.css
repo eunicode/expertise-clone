@@ -9,12 +9,18 @@
 }
 
 .navListed {
-  font-size: 0.95em;
+  font-size: 0.8em;
   font-weight: 500;
+  background: var(--teal);
+  color: white;
+  border-radius: 3px;
+  align-self: center;
 }
 
-.ul {
+.navCatContainer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   /* flex-direction: row; */
 }
 /* @media (min-width: 769px) {
@@ -23,3 +29,9 @@
     justify-content: space-between;
   }
 } */
+
+@media (min-width: 768px) {
+  .navCatContainer {
+    flex-direction: row;
+  }
+}

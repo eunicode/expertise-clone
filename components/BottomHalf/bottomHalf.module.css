@@ -1,5 +1,6 @@
 .bottomHalf {
   margin: auto;
+  width: 90%;
 }
 
 @media (min-width: 768px) {

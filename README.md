@@ -9,7 +9,8 @@
 ## To do
 
 - Sticky header
-- Use grid-gap to manage spacing between layout components
+- Switch card from flex to grid
+- Use grid-gap to manage spacing between layout components?
 - Tweak text
 
 LATER
@@ -18,6 +19,7 @@ LATER
 - Use Tailwind
 - How to use element selectors with CSS Modules
 - Find out the difference between styled-jsx and styled-components
+- Prevent flex grow
 
 ## Things I would do differently
 
