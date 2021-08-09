@@ -10,6 +10,7 @@
 
 - Sticky header
 - Use grid-gap to manage spacing between layout components
+- Tweak text
 
 LATER
 
@@ -31,6 +32,7 @@ I would use Tailwind to avoid having to think of class names and try a utility-f
 - Using CSS grid with CSS Modules is hard bc of locally scoped classes. If you have React component instances, use props to pass down styles or wrapper divs
 - Use viewport meta tag to make websites full bleed in mobile views
 - How to use Grid to make text overlay images
+- Only Javascript expressions are allowed in JSX.
 
 # Layout component example
 

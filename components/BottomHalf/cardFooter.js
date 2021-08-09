@@ -11,10 +11,12 @@ export default function CardFooter(props) {
       <div className={styles.cardFooterSect}>
         <div>Professionalism: {props.professional.professionalism}</div>
 
-        <div className={styles.cardFooterSect}>More Info</div>
+        <div>More Info</div>
       </div>
 
-      <div>Price: From {props.professional.price}</div>
+      <div className={styles.cardFooterSect}>
+        Price: From {props.professional.price}
+      </div>
     </div>
   );
 }

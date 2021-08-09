@@ -8,8 +8,9 @@ const professionals = [
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
     phone: "(111) 111-1111",
+    site: "www.company.com",
     socialMedia: {
-      facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/craigsplumbingla/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -38,8 +39,10 @@ const professionals = [
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
     phone: "(111) 111-1111",
+    site: "www.company.com",
     socialMedia: {
-      facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/craigsplumbingla/",
+      Instagram: "https://www.instagram.com",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -68,8 +71,9 @@ const professionals = [
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
     phone: "(111) 111-1111",
+    site: "www.company.com",
     socialMedia: {
-      facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/craigsplumbingla/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -98,8 +102,9 @@ const professionals = [
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
     phone: "(111) 111-1111",
+    site: "www.company.com",
     socialMedia: {
-      facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/craigsplumbingla/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -128,8 +133,9 @@ const professionals = [
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
     phone: "(111) 111-1111",
+    site: "www.company.com",
     socialMedia: {
-      facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/craigsplumbingla/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -158,8 +164,9 @@ const professionals = [
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
     phone: "(111) 111-1111",
+    site: "www.company.com",
     socialMedia: {
-      facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/craigsplumbingla/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -188,8 +195,9 @@ const professionals = [
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
     phone: "(111) 111-1111",
+    site: "www.company.com",
     socialMedia: {
-      facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/craigsplumbingla/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -218,8 +226,9 @@ const professionals = [
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
     phone: "(111) 111-1111",
+    site: "www.company.com",
     socialMedia: {
-      facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/craigsplumbingla/",
     },
     reputation: "A+",
     reputationMoreInfo: {
@@ -248,8 +257,9 @@ const professionals = [
       "Professional business description. Certification. Information. Background. Services. License number.",
     address: "Professional Business Address",
     phone: "(111) 111-1111",
+    site: "www.company.com",
     socialMedia: {
-      facebook: "https://www.facebook.com/craigsplumbingla/",
+      Facebook: "https://www.facebook.com/craigsplumbingla/",
     },
     reputation: "A+",
     reputationMoreInfo: {

@@ -1,12 +1,46 @@
 .cardTop {
   display: flex;
+  /* mobile-first */
+  flex-direction: column;
+
   background-color: white;
   /* margin-bottom: 2em; */
 }
 
+.cardTopRight {
+  display: flex;
+  flex-direction: column;
+  /* display: grid; */
+  /* align-items: center; */
+  /* grid-auto-rows: 1fr; */
+  /* grid-auto-rows: auto; */
+  /* grid-template-rows: 1fr; */
+  /* grid-template-rows: auto; */
+  /* grid-auto-rows: 1fr; */
+}
+.cardTopRight h3 {
+  /* padding-top: 1em; */
+  padding: 1em 0px;
+  font-weight: 500;
+  color: var(--tealDark2);
+}
+
+.cardTopRight p {
+  color: var(--grayDark);
+  font-size: 0.85em;
+}
+
+.cardTopRight > * {
+  /* padding: 0.5em 0px; */
+  /* padding-bottom: 0.75em; */
+}
+
 .cardTopTagCont {
-  display: inline-flex;
+  /* display: inline-flex; */
   flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1em;
 }
 
 .cardTopTag {
@@ -17,5 +51,71 @@
   border-radius: 5px;
   font-size: 0.8em;
 }
+
+.cardTopContact {
+  display: grid;
+  /* display: flex; */
+  /* flex-direction: column; */
+  grid-auto-rows: 1fr;
+  /* grid-auto-rows: 1fr 1fr 1fr 1fr 1fr; */
+  /* grid-template-rows: repeat(5, 1fr); */
+  /* align-items: center; */
+  /* align-self: end; */
+  margin-top: auto;
+  /* margin-top: 2em; */
+  /* height: 40%; */
+  /* padding-top: 2em; */
+}
+
+.cardTopContactFooter {
+  /* margin-top: auto; */
+  /* display: grid; */
+  /* min-width: 100%; */
+}
+
+.button {
+  border: 1px solid var(--orange);
+  background: none;
+  /* border-radius: 5px; */
+  color: var(--orange);
+  /* padding: 5px; */
+
+  display: block;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--tealDark1);
+}
 /* .cardFooter {
 } */
+.linkSite {
+  background-color: var(--orange);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  /* border-radius: 5px; */
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.linkSite a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 640px) {
+  .cardTop {
+    flex-direction: row;
+  }
+  .cardTopContact {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+  }
+}
