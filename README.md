@@ -51,13 +51,21 @@ LATER
 
 - With Next.js, when using _root_ relative paths, don't include `public` in the path
 - Next.js image's css overrides custom css(?)
-- Only Javascript expressions are allowed in JSX
+- Only Javascript expressions are allowed in JSX. Can't use statements.
 - Use camelCase with CSS Modules
 - You can use element selectors with CSS Modules if you target it with a class first
 
 ## Setup
 
-Clone/download project. Move to project folder. Run `npm install`. Run `npm run dev`.
+Clone/download project.
+
+Move to project folder.
+
+Run `npm install`.
+
+Run `npm run dev`.
+
+Development server will be running at http://localhost:3000/
 
 ## Attribution
 

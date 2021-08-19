@@ -19,11 +19,7 @@
   .header {
     flex-direction: row;
     position: sticky;
-    /* position: fixed; */
-    /* position: relative; */
-    /* width: 100%; */
     top: 0px;
-    /* overflow: hidden; */
     z-index: 2;
   }
 }
