@@ -35,7 +35,7 @@ const QUERY_PAGES = {
     }`,
   variables: {
     page: 1,
-    perPage: 10,
+    perPage: 50,
   },
 };
 

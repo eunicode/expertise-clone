@@ -16,7 +16,7 @@ https://expertise-clone.vercel.app/verticalpage
 
 - React
 
-## Lessons learned
+## Lessons learned - CSS
 
 - Using CSS grid with CSS Modules is tricky bc of locally scoped classes. If Grid children are React component instances, use props to pass down styles or use wrapper divs
 - Use viewport meta tag to make websites full bleed in mobile views
@@ -70,3 +70,42 @@ Development server will be running at http://localhost:3000/
 ## Attribution
 
 This project was scaffolded with [Next.js](https://github.com/vercel/next.js/tree/master/examples/layout-component)
+
+## Project continuation
+
+## Lessons learned - GraphQL
+
+- A GraphQL API request should be a POST request with a JSON body of the form `{ "query": "...", "variables": {...} }` (https://graphql.org/learn/serving-over-http/)
+- GraphQL API response will be JSON
+- To give a query variables, you use the `query` keyword and declare typed variables with `$`: `query ($id: Int) {...}`.
+- Then you specify where they'll be used: `Media (id: $id) {...}`
+- Then you define the variable values: `{ "query": "...", "variables": { "id": 1525} }`
+
+## Lessons learned - Dynamic routing
+
+- Check if query works in GraphiQL and then Postman
+- Read Nextjs API documentation for details on how getStaticPaths(), getStaticProps() work. The tutorial or other resources don't explain as clearly.
+- getStaticPaths() - Get paths (slugs) from API. Then give the list of paths to Nextjs. Nextjs will statically pre-render all the paths.
+
+```
+return {
+  paths: [
+    { params: { id: '1' } },
+    { params: { id: '2' } }
+  ]
+}
+```
+
+- The path must be a string, it can't be a number
+- getStaticProps() - Feed data into your component via props. Similar to Redux's mapStateToProps()
+
+```
+return {
+  props: {
+    ninja: data
+  }
+}
+```
+
+- getStaticProps() automatically gets a `context` parameter. The `context` object has a `params` key that holds the page's route parameter; the id/slug. This is how you can connect the correct data to the correct route/page. You make a fetch request with the id.
+- If you're going to create an index of page links, your query should include the slug and title of the page

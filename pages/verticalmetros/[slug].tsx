@@ -37,7 +37,7 @@ export default function VerticalMetro({ verticalMetroData }) {
   const multiplier = (data) => {
     const cards = [];
 
-    for (let i = 0; i < 5; i += 1) {
+    for (let i = 0; i < 10; i += 1) {
       cards.push(
         <div key={i}>
           <div>Business Name: {data.title.english}</div>
