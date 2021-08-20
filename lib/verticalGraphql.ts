@@ -27,6 +27,9 @@ const QUERY_PAGES = {
       Page (page: $page, perPage: $perPage) {
         media {
           id
+          title {
+            english
+          }
         }
       }
     }`,
@@ -53,7 +56,7 @@ const QUERY_PAGE = {
 
 export async function getPages() {
   const payload = await fetchQuery(QUERY_PAGES.query, QUERY_PAGES.variables);
-
+  console.log("hi");
   return payload;
 }
 
