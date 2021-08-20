@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 
   return {
     paths: paths,
-    fallback: true,
+    fallback: false,
   };
 }
 
@@ -40,10 +40,10 @@ export default function VerticalMetro({ verticalMetroData }) {
     for (let i = 0; i < 10; i += 1) {
       cards.push(
         <div key={i}>
-          <div>Business Name: {data.title.english}</div>
+          <div>Business Name: {data.title?.english}</div>
           <div>Tags: {data.genres.join(", ")}</div>
           <div>Address: {data.countryOfOrigin}</div>
-          <div>Reputation: {data.averageScore}</div>
+          <div>Reputation: {data?.averageScore}</div>
           <br />
         </div>
       );
