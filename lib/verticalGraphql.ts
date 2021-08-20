@@ -56,44 +56,13 @@ const QUERY_PAGE = {
 
 export async function getPages() {
   const payload = await fetchQuery(QUERY_PAGES.query, QUERY_PAGES.variables);
-  console.log("hi");
   return payload;
 }
 
 export async function getPage(slug) {
   const payload = await fetchQuery(QUERY_PAGE.query, {
-    slug: slug,
+    id: slug,
   });
 
   return payload;
 }
-
-// `
-//       {
-//         providerPages {
-//           id
-//           slug
-//           title
-//           metro
-//           state
-//           service
-//         }
-//       }
-//     `
-
-//     `
-//   query PageBySlug ($slug: String) {
-//     providerPages(where: {slug: $slug}) {
-//       title
-//       state
-//       metro
-//       service
-//       slug
-//       description
-//       providerCards{
-//         companyName
-//         description
-//       }
-//     }
-//   }
-//   `

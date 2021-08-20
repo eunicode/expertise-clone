@@ -36,5 +36,6 @@ export default function VerticalMetros({ verticalMetroData }) {
 
 /*
 NOTES
-Can't use console.log() in getStaticProps()?
+Can't use console.log() in getStaticProps()
+You can use console.log(graphQL data) in React function component though.
  */
