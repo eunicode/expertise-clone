@@ -83,6 +83,8 @@ This project was scaffolded with [Next.js](https://github.com/vercel/next.js/tre
 
 ## Lessons learned - Dynamic routing
 
+https://expertise-clone.vercel.app/verticalmetros/1
+
 - Check if query works in GraphiQL and then Postman
 - Read Nextjs API documentation for details on how getStaticPaths(), getStaticProps() work. The tutorial or other resources don't explain as clearly.
 - getStaticPaths() - Get paths (slugs) from API. Then give the list of paths to Nextjs. Nextjs will statically pre-render all the paths.
